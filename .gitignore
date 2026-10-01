@@ -1,0 +1,23 @@
+# uv 가상환경
+.venv/
+
+# 비밀정보 및 로컬 환경변수
+.env
+.env.*
+!.env.example
+
+# Python 캐시 및 빌드 결과물
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# IDE 및 운영체제 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
