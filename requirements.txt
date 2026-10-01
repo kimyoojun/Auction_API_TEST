@@ -1,4 +1,5 @@
-uv
+fastapi
+uvicorn[standard]
 
 
 # py -m pip install -r requirements.txt
